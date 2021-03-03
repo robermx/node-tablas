@@ -15,7 +15,7 @@ const argv = require('yargs/yargs')(process.argv.slice(2))
     alias: 'listar',
     type: 'boolean',
     default: false,
-    describe: 'Mustra la tabla en consola',
+    describe: 'Muestra la tabla en consola',
   })
   .check((argv, options) => {
     if (isNaN(argv.b)) {

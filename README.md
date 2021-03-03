@@ -8,5 +8,5 @@ Options:
 --version  Show version number                                   [boolean]
 -b, --base     Base de la tabla a multiplicar              [number] [required]
 -h, --hasta    Hasta que número se desea multiplicar    [number] [default: 10]
--l, --listar   Mustra la tabla en consola            [boolean] [default: false]
+-l, --listar   Muestra la tabla en consola            [boolean] [default: false]
 ```
